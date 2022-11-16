@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <script
+      src="https://kit.fontawesome.com/58a9a0347e.js"
+      crossorigin="anonymous"
+    ></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="stroca1">
+      <div class="header-logo-100px">
+        <img
+         src="data:image/webp;base64,UklGRggDAABXRUJQVlA4TPwCAAAvn8AIEMehoG0bydvuKBx/mv/RYNy2jSRq+i93fntYQds2krfdUTj+NP9zFAAAGc023kbsVXEQ2zgjABgE4PdfeOKBJ+544I4b7rhw4sCGBQPKYaRd/917mdeD6ikCGsAojlx+/QjjAfz+KjZogAANDlboEE+IRgUoAiBDiAoQ/N8f8JPGZL8f4D9N/50Hgbpt623b6CYHBFhEgcQUd2smPa5I5/u/mkgQpOX2L6L/E6DMN9//0pP23xjPnzZ/YjzV38dv1xEyhcfgQ/xvHX6bp34MvsSPKzEhR+OeEpQZPE8LNrNCsZIaFx7E2QMw/ZyadXTA5iHs4s+kX7tV4GZsOWzv4lXKSYzrYJMUzFpU48KjYbqUktU8xHc/jrIMZyvAJmw4ZFfxXZareLYCmoneLLR1YEo/q6+dc9V2wlcF2LqfMdz9yBfjic6+Xi5igG7MgbFTDtyIg2avZryV5AE/UjNuu72Kyc3eyYU0/D/oJMZl3sUrabeTjn4POTaAHWkA7/L1ANaAT6uYNEFSBWANwEbSfTzTu/hpJTEe6Wf8lcM3QC2pA2ot0ACdtK2UtAWsV2iNl9QCrpe8AXopxhO9i1erOdFVfJdFDvAKFoqwVNDklIUiSFKQJAtFkKQOqA9Ib6AINeC1RAfYNswIQKvpALQaLcEdELWAA2otoob9qk/ygE/wgB9rgKlPqznSz2wq2bchk5mQLwGMX9HulzS8G1ay20lH74Zcwex1ytMxJYXWQJHSA21CD7RjJTglHt1fL3N2fancU/JAo0zlVJCkFkhRATZMqYBipAPqlNFc1/FMSyaoxioDXqFiwpsmSBWYpAawvRSavRYoe8kbMP2sd/dHWYYzrSTYbtaGcVOMFYADqJKCBSgs1JJkAawBaJU1x9IpCpoV7Ihpq7HOMGpDkoJl3PSSQslkq4MznaBQGUzVqxlTqAuwTVCa1JYGbBM06ksDtu6V+TL+TNGn3XKP8NmQ9FR9Jfsc3z9x/j5++8R50r65/fbP0+ZJCQ=="
+         alt=""
+       />
+       <div onclick="list1()" id="list" class="list">
+        <i class="fas fa-bars"></i>
+       </div>
+       <div onclick="list3()" id="list2" class="list2">
+        <i class="fas fa-bars"></i>
+       </div>
+     </div>
+      <header id="header">
+        <div class="header-left">
+          <img
+            src="data:image/webp;base64,UklGRggDAABXRUJQVlA4TPwCAAAvn8AIEMehoG0bydvuKBx/mv/RYNy2jSRq+i93fntYQds2krfdUTj+NP9zFAAAGc023kbsVXEQ2zgjABgE4PdfeOKBJ+544I4b7rhw4sCGBQPKYaRd/917mdeD6ikCGsAojlx+/QjjAfz+KjZogAANDlboEE+IRgUoAiBDiAoQ/N8f8JPGZL8f4D9N/50Hgbpt623b6CYHBFhEgcQUd2smPa5I5/u/mkgQpOX2L6L/E6DMN9//0pP23xjPnzZ/YjzV38dv1xEyhcfgQ/xvHX6bp34MvsSPKzEhR+OeEpQZPE8LNrNCsZIaFx7E2QMw/ZyadXTA5iHs4s+kX7tV4GZsOWzv4lXKSYzrYJMUzFpU48KjYbqUktU8xHc/jrIMZyvAJmw4ZFfxXZareLYCmoneLLR1YEo/q6+dc9V2wlcF2LqfMdz9yBfjic6+Xi5igG7MgbFTDtyIg2avZryV5AE/UjNuu72Kyc3eyYU0/D/oJMZl3sUrabeTjn4POTaAHWkA7/L1ANaAT6uYNEFSBWANwEbSfTzTu/hpJTEe6Wf8lcM3QC2pA2ot0ACdtK2UtAWsV2iNl9QCrpe8AXopxhO9i1erOdFVfJdFDvAKFoqwVNDklIUiSFKQJAtFkKQOqA9Ib6AINeC1RAfYNswIQKvpALQaLcEdELWAA2otoob9qk/ygE/wgB9rgKlPqznSz2wq2bchk5mQLwGMX9HulzS8G1ay20lH74Zcwex1ytMxJYXWQJHSA21CD7RjJTglHt1fL3N2fancU/JAo0zlVJCkFkhRATZMqYBipAPqlNFc1/FMSyaoxioDXqFiwpsmSBWYpAawvRSavRYoe8kbMP2sd/dHWYYzrSTYbtaGcVOMFYADqJKCBSgs1JJkAawBaJU1x9IpCpoV7Ihpq7HOMGpDkoJl3PSSQslkq4MznaBQGUzVqxlTqAuwTVCa1JYGbBM06ksDtu6V+TL+TNGn3XKP8NmQ9FR9Jfsc3z9x/j5++8R50r65/fbP0+ZJCQ=="
+            alt=""
+          />
+        </div>
+        <div class="header-center">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Tracks</a>
+          <a href="#">Blog<i class="fas fa-angle-down"></i></a>
+          <a href="#">Pages<i class="fas fa-angle-down"></i></a>
+          <a href="#">Contact</a>
+        </div>
+        <div class="header-right">
+          <div id="ggo" class="header-right-i"><i class="fab fa-facebook-f"></i></div>
+          <div id="twitterl" class="header-right-i"><i class="fab fa-twitter"></i></div>
+          <div class="header-right-i"><i class="fab fa-instagram"></i></div>
+        </div>
+      </header>
+      <div class="stroca1-text">
+        <h3><i>CS:GO</i></h3>
+      </div>
+      <div class="stroca1-buttom">
+        <div class="stroca1-buttom-left">
+          <div class="stroca1-buttom-left-img">
+            <img
+              src="./images/HD-wallpaper-black-amoled-cs-go-csgo-dark-logo-minimal.jpg"
+              alt=""
+            />
+          </div>
+          <div class="stroca1-buttom-left-text">
+            <h3>CS:GO</h3>
+            <p>16 November, 2022</p>
+            <p>00:00 00:02</p>
+          </div>
+        </div>
+        <div class="stroca1-buttom-right">
+          <p style="font-family: 'Poppins', sans-serif;
+          font-weight: 600;" id="stroca1-buttom-right-button">Play now</p>
+        </div>
+      </div>
+    </div>
+    <div class="stroca2">
+      <div class="stroca2-left">
+        <img
+          src="https://i.pinimg.com/564x/16/f5/b2/16f5b2cef7bbf2e93e6a15cfd3339831.jpg"
+          alt=""
+        />
+      </div>
+      <div class="stroca2-right">
+        <h1 style=" font-family: 'Poppins', sans-serif;
+        font-weight: 600;">About us</h1>
+        <p style="font-family: 'Rubik', sans-serif; ">
+          Esteem spirit temper too say adieus who direct esteem. It esteems
+          luckily or picture placing drawing. Apartments frequently or
+          motionless on reasonable projecting expression enim ad minim veniam
+          quis nostrud exercitation we have supported programmes to help
+          alleviate human suffering through animal welfare when people might
+          depend.
+        </p>
+        <img
+          src="https://preview.colorlib.com/theme/musico/img/about/xsignature.png.pagespeed.ic.P_cXClvW68.webp"
+          alt=""
+        />
+      </div>
+    </div>
+  
+    <div class="stroca3">
+        <div class="row">
+           <div class="stroca-block stroca-block1">
+        <div class="stroca-block-top"><i class="fas fa-play"></i></div>
+        <div class="stroca-block-buttom">
+          <p style="font-family: 'Poppins', sans-serif;font-weight: 800;">Game 2018</p>
+          <h3 style="font-family: 'Poppins', sans-serif;font-weight:600;">Minecraft</h3>
+        </div>
+      </div>
+      <div class="stroca-block stroca-block2">
+        <div class="stroca-block-top"><i class="fas fa-play"></i></div>
+        <div class="stroca-block-buttom">
+          <p style="font-family: 'Poppins', sans-serif;font-weight: 800;">Game 2017</p>
+          <h3 style="font-family: 'Poppins', sans-serif;font-weight:600;">God of war</h3>
+        </div>
+      </div>
+    </div>
+   <div class="row">
+        <div class="stroca-block stroca-block3">
+        <div class="stroca-block-top"><i class="fas fa-play"></i></div>
+        <div class="stroca-block-buttom">
+          <p style="font-family: 'Poppins', sans-serif;font-weight: 800;">Game 2020</p>
+          <h3 style="font-family: 'Poppins', sans-serif;font-weight:600;">Shadows of My Dream</h3>
+        </div>
+      </div>
+      <div class="stroca-block stroca-block4">
+        <div class="stroca-block-top"><i class="fas fa-play"></i></div>
+        <div class="stroca-block-buttom">
+          <p style="font-family: 'Poppins', sans-serif;font-weight: 800;">Lords Mobile</p>
+          <h3 style="font-family: 'Poppins', sans-serif;font-weight:600;">Play now</h3>
+        </div>
+      </div>
+   </div>
+     
+    </div>
+
+    <div class="stroca4">
+      <div class="stroca4-buttom">
+        <div class="stroca4-buttom-left">
+          <div class="stroca4-buttom-left-img">
+            <img
+              src="https://image.api.playstation.com/vulcan/img/cfn/11307uYG0CXzRuA9aryByTHYrQLFz-HVQ3VVl7aAysxK15HMpqjkAIcC_R5vdfZt52hAXQNHoYhSuoSq_46_MT_tDBcLu49I.png"
+              alt=""
+            />
+          </div>
+          <div class="stroca4-buttom-left-text">
+            <h3>Minecraft</h3>
+            <p>10 November, 2019</p>
+            <p>00:00 00:02</p>
+          </div>
+        </div>
+        <div class="stroca4-buttom-right">
+          <p style="font-family: 'Poppins', sans-serif;
+          font-weight: 600;" id="stroca4-buttom-right-button"> <a style="color: red;" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwivlOXro7L7AhWWDRAIHfgrDukQFnoECA4QAQ&url=https%3A%2F%2Fclassic.minecraft.net%2F&usg=AOvVaw2a_pfZwFWhu9-PipM1eIt5&cshid=1668587278861198">Play now</a></p>
+        </div>
+      </div>
+
+      <div class="stroca4-buttom">
+        <div class="stroca4-buttom-left">
+          <div class="stroca4-buttom-left-img">
+            <img
+              src="https://s13emagst.akamaized.net/products/31616/31615695/images/res_27664bb72d43b05a0b4bb707f2f1705b.jpg?width=720&height=720&hash=FB4D3CDA0BDE7C669388FC8EAB3CB2AD"
+              alt=""
+            />
+          </div>
+          <div class="stroca4-buttom-left-text">
+            <h3>GTA</h3>
+            <p>10 November, 2019</p>
+            <p>00:00 00:02</p>
+          </div>
+        </div>
+        <div class="stroca4-buttom-right">
+          <p style="font-family: 'Poppins', sans-serif;
+          font-weight: 600;" id="stroca4-buttom-right-button">Play now</p>
+        </div>
+      </div>
+
+      <div class="stroca4-buttom">
+        <div class="stroca4-buttom-left">
+          <div class="stroca4-buttom-left-img">
+            <img
+              src="https://s2.glbimg.com/5makWb8FAGyETsBuz-v7Gug-yuI=/0x0:2000x2000/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2022/h/X/ieTiJdThSFWcj1rCk8NQ/fifa-23-efootball-2023.png"
+              alt=""
+            />
+          </div>
+          <div class="stroca4-buttom-left-text">
+            <h3>PES</h3>
+            <p>10 November, 2019</p>
+            <p>00:00 00:02</p>
+          </div>
+        </div>
+        <div class="stroca4-buttom-right">
+          <p style="font-family: 'Poppins', sans-serif;
+          font-weight: 600;" id="stroca4-buttom-right-button">Play now</p>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <div class="stroca5">
+      <h1>Image Galleries</h1>
+      <div class="stroca5-top">
+        <div class="stroca5-top-left">
+          <i id="stroca5-i" class="fas fa-chevron-right"></i>
+        </div>
+        <div class="stroca5-top-right">
+          <i id="stroca5-i" class="fas fa-chevron-right"></i>
+        </div>
+      </div>
+      <div class="strca5-right">
+        <div class="stroca5-right-block stroca5-right-block1">
+          <i id="stroca5-i" class="fas fa-chevron-right"></i>
+        </div>
+        <div class="stroca5-right-block stroca5-right-block2">
+          <i id="stroca5-i" class="fas fa-chevron-right"></i>
+        </div>
+        <div class="stroca5-right-block stroca5-right-block3">
+          <i id="stroca5-i" class="fas fa-chevron-right"></i>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+        <div class="footer-stroca1">
+            <div class="footer-left">
+                <h3>Services</h3>
+                <div class="footer-left-input">
+                    <input type="text" placeholder="Enter you are mail"> 
+                    <button>Subscribe</button>
+                </div>
+                <p>Esteem spirit temper too say adieus who direct esteem esteems luckily. </p>
+            </div>
+            <div class="footer-right">
+                <h3>Contact Me</h3>
+                <p>conbusi@support.com</p>
+                <p>+10 873 672 6782</p>
+                <p>600/D, Green road, Kings Garden NewYork-6732</p>
+                <div class="footer-right-i">
+                    <div class="footer-right-i-block footer-right-i-block1"><i class="fab fa-facebook-f"></i></div>
+                    <div class="footer-right-i-block footer-right-i-block2"><i class="fab fa-google-plus-g"></i></div>
+                    <div class="footer-right-i-block footer-right-i-block3"><i class="fab fa-twitter"></i></div>
+                    <div class="footer-right-i-block footer-right-i-block4"><i class="fab fa-youtube"></i></div>
+                    <div class="footer-right-i-block footer-right-i-block5"><i class="fab fa-instagram"></i></div>
+                </div>
+            </div>
+        </div>
+        
+    </footer>
+
+    
+    <script src="app.js"></script>
+  </body>
+</html>
